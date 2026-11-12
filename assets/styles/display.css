@@ -1,0 +1,64 @@
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../images/natal.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    pointer-events: none;
+}
+
+div.caixa div {
+    width: 75px;
+    height: 75px;
+    /*block: Define o elemento como um bloco, ocupando toda a largura disponivel e iniciando uma nova linha.*/
+}
+
+.azul {
+    background-color: lightblue;
+    /*inline-block: Exibe o elemento na mesma linha, mas permite definir largura, altura, margens e espaçamentos.*/
+    display: inline-block;
+}
+
+.verde {
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+.vermelho {
+    background-color: lightcoral;
+    /*none: Oculta completamente o elemento da página, fazendo com que ele não ocupe espaço no layout.*/
+    display: none;
+}
+
+.roxo {
+    background-color: plum;
+    /*inline: Exibe o elemento na mesma linha que os demais, ocupando apenas o espaço necessário para seu conteúdo.*/
+    display: inline;
+}
+
+.rosa {
+    background-color: lightpink;
+    display: block;
+}
+
+.amarelo {
+    background-color: rgb(233, 233, 106);
+    display: inline-block;
+    /*opacity: 0: Torna o elemento totalmente transparente (invisível), mas ele continua ocupando espaço no layout e ainda pode receber interações, como cliques.*/
+    opacity: 0;
+}
+
+.cinza {
+    background-color: gray;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.preto {
+    background-color: black;
+    color:aliceblue;
+    display: inline-block;
+}
